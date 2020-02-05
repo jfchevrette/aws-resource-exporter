@@ -15,13 +15,16 @@ import (
 // AWS has no means to return the actual `max_connections` value.
 var DBMaxConnections = map[string]map[string]int64{
 	"db.t2.small": map[string]int64{
+		"default": 150,
 		"default.mysql5.7": 150,
 	},
 	"db.m5.2xlarge": map[string]int64{
+		"default": 3429,
 		"default.postgres10": 3429,
 		"default.postgres11": 3429,
 	},
 	"db.m5.large": map[string]int64{
+		"default": 823,
 		"default.postgres10": 823,
 		"default.postgres11": 823,
 	},
