@@ -7,5 +7,7 @@ require (
 	github.com/stretchr/objx v0.1.1 // indirect
 	github.com/stretchr/testify v1.2.2
 	golang.org/x/crypto v0.0.0-20180904163835-0709b304e793
-	golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33
+	golang.org/x/sys v0.0.0-20200202164722-d101bd2416d5
 )
+
+go 1.13
